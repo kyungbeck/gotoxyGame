@@ -21,6 +21,8 @@ int main()
 			y--;
 		} else if ( input == 'k') {
 			y++;
+		} else if ( input == 'q') {
+			break;
 		}
 		if ( result > 0 && input != 10) {
 			//printf("result: %d %d\n", result, input) ;
